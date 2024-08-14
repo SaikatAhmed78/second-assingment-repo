@@ -7,31 +7,136 @@
   font-style: normal;
 }
 
-/* shared styles */
-.display-flex{
-  display: flex;
+/* sherd style  */
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-
+.btn-1{
+  font-size: 1.5rem;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  background-color: rgb(230, 83, 60);
+  border-radius: 25px;
+  
+}
+.btn-2{
+  font-size: 1.5rem;
+  border: 1px solid white;
+  padding: 14px 25px;
+  color: white;
+  border-radius: 25px;
+  background-color: transparent;
+  margin-left: 1rem;
+}
 /* header styles */
 
 /* navbar related styles */
-.banner{
-  background-image: linear-gradient(to top, #414141, #343434, #282828, #1d1d1d, #111111);
+.header-section{
+  background-color: black;
 }
-.navbar {
-justify-content: space-between;
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar .brand-name{
+  font-size: 4rem;
+  color: rgb(230, 83, 60);
+}
+.navbar ul{
+  display: flex;
+  color: #ffff;
+}
+.navbar li{
+  list-style: none;
+}
+.navbar ul li a{
+color: #ffff;
+text-decoration: none;
+list-style: none;
+padding: 20px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content{
+  width: 40%;
+}
+.parent-banner .banner .banner-title {
+color: #ffff;
+font-size: 5rem;
+}
+.parent-banner .banner .banner-description{
+  color: #ffff;
+  font-size: 1rem;
 }
 
-.nav-item {
-list-style: none;
-margin-right: 30px;
+
+
+/* main (first) section style  */
+.main-first-section {
+  width: 100%;
+  background-color: black;
 }
-.nav-link{
-  text-decoration: none;
+
+.content-1 {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.content-1>h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+  color: #ffff;
+
+}
+
+.content-1>p {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: rgb(228, 219, 219);
+}
+
+.parent-of-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo-1 {
+  /* width: 340px; */
+}
+
+.photo-1>h4 {
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem;
+  margin: 0;
   font-weight: 500;
-  color: #FFFF;
 }
-.navbar, .banner{
-  max-width: 1440px;
-  margin: 0 auto;
+
+.photo-1>h4,
+p {
+  text-align: center;
+}
+
+.photo-1>p {
+  color: rgb(228, 219, 219);
+  width: 200px;
+  margin: auto;
+}
+
+.photo-1>img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 220px;
+  width: 220px;
+  margin-left: 2rem;
 }
