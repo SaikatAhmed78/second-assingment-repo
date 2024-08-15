@@ -6,6 +6,13 @@
   font-weight: weight;
   font-style: normal;
 }
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+
+body{
+  background-color: black;
+  color: white;
+}
 
 /* sherd style  */
 .container {
@@ -18,7 +25,7 @@
   padding: 15px 25px;
   color: white;
   background-color: rgb(230, 83, 60);
-  border-radius: 25px;
+  border-radius: 30px;
   
 }
 .btn-2{
@@ -26,7 +33,7 @@
   border: 1px solid white;
   padding: 14px 25px;
   color: white;
-  border-radius: 25px;
+  border-radius: 30px;
   background-color: transparent;
   margin-left: 1rem;
 }
@@ -34,7 +41,7 @@
 
 /* navbar related styles */
 .header-section{
-  background-color: black;
+ background: linear-gradient(#111111, #777777);
 }
 .navbar{
   display: flex;
@@ -59,6 +66,9 @@ text-decoration: none;
 list-style: none;
 padding: 20px;
 }
+/* navbar end */
+
+
 .banner{
   display: flex;
   justify-content: space-between;
@@ -70,10 +80,70 @@ padding: 20px;
 color: #ffff;
 font-size: 5rem;
 }
+.style-font{
+  font-family: "Miama", sans-serif;
+  font-weight: 200;
+}
 .parent-banner .banner .banner-description{
   color: #ffff;
   font-size: 1rem;
+  text-align: left;
 }
+.banner-img img{
+  position: relative;
+
+}
+/* .banner-img .up{
+  position: absolute;
+  bottom: 200px;
+  background-color: rgb(230, 83, 60);
+  top: 20%;
+  right: 10%;
+}
+.banner-img .down{
+  position: absolute;
+  background-color: rgb(230, 83, 60);
+  bottom: 200px;
+  left: 50px;
+} */
+ .video-tutorial{
+  display: flex;
+  width: 210px;
+  padding: 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  align-items: center;
+  position: absolute;  
+  top: 600px;
+  left: 960px;
+}
+.red-color{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+.tutorial-text{
+  margin-left: 12px;
+  color: white;
+}
+.tutorial-text span{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.work-out{
+  width: 210px;
+  padding: 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  align-items: center;
+  position: absolute;  
+  top: 200px;
+  left: 1250px;
+}
+
 
 
 
